@@ -10,7 +10,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@localhost/jaquar'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres:// postgres://lhrxxkiccognqo:5c1ccad8a0351d32ae3099ad2bd6d8c02c4d3182cdba009b5b550880182e48fa@ec2-34-227-120-94.compute-1.amazonaws.com:5432/d2mtevvo9igha7'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://lhrxxkiccognqo:5c1ccad8a0351d32ae3099ad2bd6d8c02c4d3182cdba009b5b550880182e48fa@ec2-34-227-120-94.compute-1.amazonaws.com:5432/d2mtevvo9igha7'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
