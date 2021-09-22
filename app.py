@@ -5,7 +5,7 @@ from send_mail import send_mail
 app = Flask(__name__)
 ENV = 'prod'
 
-if ENV == 'dev':
+if ENV == 'prod':
     app.debug = True
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@localhost/jaquar'
 else:
